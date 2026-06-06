@@ -27,7 +27,7 @@ sudo tlp start
 Supergfxctl paketini kurun:
 
 ```bash
-sudo pacman -S supergfxctl
+yay -S supergfxctl
 ```
 
 ## NVIDIA dGPU'yu Kapatma
@@ -36,6 +36,13 @@ Ayrık NVIDIA ekran kartını kapatıp yalnızca dahili ekran kartını kullanma
 
 ```bash
 sudo supergfxctl -m Integrated
+```
+## NVIDIA dGPU'yu Açma
+
+Ayrık NVIDIA ekran kartını kullanmak için:
+
+```bash
+sudo supergfxctl -m Hybrıd
 ```
 
 ## İsteğe Bağlı: Supergfxctl Komutlarını sudo Olmadan Kullanma
