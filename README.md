@@ -64,7 +64,7 @@ sudo supergfxctl -m Integrated
 Ayrık NVIDIA ekran kartını kullanmak için:
 
 ```bash
-sudo supergfxctl -m Hybrıd
+sudo supergfxctl -m Hybrid
 ```
 
 ## İsteğe Bağlı: Supergfxctl Komutlarını sudo Olmadan Kullanma
