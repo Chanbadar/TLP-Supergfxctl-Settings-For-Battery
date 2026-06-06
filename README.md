@@ -23,10 +23,19 @@ sudo tlp start
 ```
 ## TLP Yapılandırması
 
-Depodaki `tlp.conf` dosyasını indirip `/etc/tlp.conf` dosyası ile değiştirin.
+Depoyu klonlayın:
 
 ```bash
-gıt clone 
+git clone https://github.com/Chanbadar/TLP-Supergfxctl-Settings-For-Battery.git
+```
+İndirilen tlp.conf dosyasını sistemdeki mevcut yapılandırma dosyası ile değiştirin:
+```bash
+sudo cp TLP-Supergfxctl-Settings-For-Battery/tlp.conf /etc/tlp.conf
+#Not: Eğer `tlp.conf` dosyası deponun kök dizininde değilse, `cp` komutundaki yolu dosyanın bulunduğu klasöre göre güncellemen gerekir.
+```
+Gereksiz dosyayı silin:
+```
+sudo rm -rf TLP-Supergfxctl-Settings-For-Battery
 ```
 
 Yapılandırma değişikliklerini uygulamak için:
