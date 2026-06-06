@@ -21,6 +21,19 @@ TLP'yi hemen başlatın:
 ```bash
 sudo tlp start
 ```
+## TLP Yapılandırması
+
+Depodaki `tlp.conf` dosyasını indirip `/etc/tlp.conf` dosyası ile değiştirin.
+
+```bash
+gıt clone 
+```
+
+Yapılandırma değişikliklerini uygulamak için:
+
+```bash
+sudo tlp start
+```
 
 ## Supergfxctl Kurulumu
 
@@ -69,13 +82,5 @@ Desteklenen ekran kartı modlarını görüntüleme:
 supergfxctl -s
 ```
 
-## TLP Yapılandırması
 
-Depodaki `tlp.conf` dosyasını indirip `/etc/tlp.conf` dosyası ile değiştirin.
-
-Yapılandırma değişikliklerini uygulamak için:
-
-```bash
-sudo tlp start
-```
 
