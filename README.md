@@ -52,6 +52,14 @@ Supergfxctl paketini kurun:
 yay -S supergfxctl
 ```
 
+## Supergfxctl Kurulumu
+
+Supergfxctl servisini aktifleştirme ve çalıştırmak için:
+
+```bash
+sudo systemctl enable supergfxd && sudo systemctl start supergfxd
+```
+
 ## NVIDIA dGPU'yu Kapatma
 
 Ayrık NVIDIA ekran kartını kapatıp yalnızca dahili ekran kartını kullanmak için:
